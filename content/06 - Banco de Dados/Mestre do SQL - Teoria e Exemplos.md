@@ -92,7 +92,24 @@ Junior, o banco de dados pode estar em um servidor e sua API em outro. Se você 
 ---
 
 ## 💡 Próximos Passos
-🔗 **?? [Use a IDE Online para praticar]**
+Vá para o laboratório e domine suas queries:
+
+### 🧪 Laboratório de Prática
+```csharp
+using System;
+using System.Data;
+using Dapper;
+
+namespace FinanceiraEstude.Exercises.Database;
+
+public class TreinoSQL {
+    // DESAFIO: Escreva a Query SQL (string) para buscar o Nome do Cliente e o Valor do Aporte
+    // fazendo um JOIN entre as tabelas 'Clientes' e 'Aportes'.
+    // Evite o problema N+1!
+    public string QueryDesafio = "ESCREVA AQUI O SEU SELECT COM JOIN";
+}
+```
+
 
 
 

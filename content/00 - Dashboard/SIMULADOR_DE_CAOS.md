@@ -1,61 +1,163 @@
 # 💣 O Simulador de Caos: 50+ Bugs no FinanceiraEstude
 
-Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo é a prova final de um dos módulos do seu Dashboard.
+Este simulador é o campo de batalha dos seus estudos. Copie o código de cada bloco e leve para uma IDE online para refatorar.
 
 ---
 
-## 🏗️ Ponte com o VS Code
-🔗 **?? [Use a IDE Online para praticar]**
+## 💻 Como Praticar Online
+1. Copie o código do bloco desejado.
+2. Acesse o **[DotNetFiddle](https://dotnetfiddle.net/)** (para C#) ou **[PlayCode](https://playcode.io/react)** (para React).
+3. Cole o código e comece a caçada aos bugs!
 
 ---
 
 ## 🗡️ Módulo 01: Arquitetura e DDD (Bloco 1 e 2)
-**Desafio:** O domínio do FinanceiraEstude está sofrendo com "Anemia" e falta de encapsulamento. O Use Case está acoplado a implementações concretas em vez de abstrações.
 
-*   **O que aplicar:** [[DDD - Teoria e Exemplos]] (Encapsulamento Rico e Inversão de Dependência).
-*   **Exercícios:**
-    *   🔗 **?? [Use a IDE Online para praticar]**
-    *   🔗 **?? [Use a IDE Online para praticar]**
+### Bloco 1: Domínio (10 Bugs)
+```csharp
+using System;
+
+namespace FinanceiraEstude.Exercises.Caos;
+
+// EXERCÍCIO 1: O Domínio Corrompido
+public class Aporte {
+    public Guid Id { get; set; } 
+    public decimal Valor { get; set; } 
+    public string Descricao; 
+    public DateTime Data { get; set; }
+
+    public Aporte() { } 
+
+    public void AlterarValor(decimal novoValor) {
+        this.Valor = novoValor; 
+    }
+}
+```
+
+### Bloco 2: Application (10 Bugs)
+```csharp
+using System;
+
+namespace FinanceiraEstude.Exercises.Caos;
+
+// EXERCÍCIO 2: O Maestro Desafinado
+public class RealizarAporteUseCase {
+    private readonly AporteRepository _repo = new AporteRepository(); 
+
+    public void Executar(decimal valor) { 
+        if (valor <= 0) throw new Exception("Erro!"); 
+        
+        var aporte = new Aporte();
+        aporte.Valor = valor; 
+        
+        _repo.Save(aporte); 
+        
+        Console.WriteLine("Aporte Salvo!"); 
+    }
+}
+
+public class AporteRepository { public void Save(object a) { } }
+```
 
 ---
 
 ## 🚀 Módulo 01: Performance e Resiliência (Bloco 3 e 4)
-**Desafio:** A API está vulnerável a SQL Injection, travas de thread (Deadlocks) e não cancela processos pesados quando o usuário desiste da requisição.
 
-*   **O que aplicar:** [[Performance - Teoria e Exemplos]] (Async/Await, CancellationToken e Segurança SQL).
-*   **Exercícios:**
-    *   🔗 **?? [Use a IDE Online para praticar]**
-    *   🔗 **?? [Use a IDE Online para praticar]**
+### Bloco 3: API (10 Bugs)
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
+
+namespace FinanceiraEstude.Exercises.Caos;
+
+// EXERCÍCIO 3: O Balcão de Vidro
+public class AportesController : ControllerBase {
+    [HttpPost]
+    public async Task<IActionResult> Post(decimal valor) { 
+        try {
+            var service = new RealizarAporteUseCase(); 
+            service.Executar(valor); 
+            return Ok("Sucesso: " + valor); 
+        } catch (Exception e) {
+            return BadRequest(e.Message); 
+        }
+    }
+}
+```
+
+### Bloco 4: Infraestrutura (10 Bugs)
+```csharp
+using System;
+using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
+
+namespace FinanceiraEstude.Exercises.Caos;
+
+// EXERCÍCIO 4: A Infraestrutura de Papel
+public class AporteRepositoryInfra {
+    public async Task Save(dynamic a) {
+        var connection = "Server=myServerAddress;Database=myDataBase;"; 
+        using (var cmd = new SqlCommand("INSERT INTO Aportes VALUES (" + a.Id + "," + a.Valor + ")")) { 
+            cmd.ExecuteNonQuery(); 
+        }
+    }
+}
+```
 
 ---
 
 ## 🎨 Módulo 02: Frontend e Estado (Bloco 6)
-**Desafio:** O componente de Inventário do FinanceiraEstude está em loop infinito, acessando storage de forma perigosa e os filtros de busca somem ao dar F5.
 
-*   **O que aplicar:** [[Gerenciamento de Estado - Teoria e Exemplos]] (Hierarquia de Dados e URL Params).
-*   **Exercícios:**
-    *   🔗 **?? [Use a IDE Online para praticar]**
+### Bloco 6: Frontend React (10 Bugs)
+```javascript
+import React, { useState, useEffect } from 'react';
 
----
+// EXERCÍCIO 6: Caos no Estado (Módulo 02)
+export const Inventario = () => {
+    const [itens, setItens] = useState([]);
+    const [filtro, setFiltro] = useState("");
 
-## 🐙 Módulo 03: Git e Workflow (Cenário Real)
-**Desafio:** Você está na branch `feature/aporte` e um bug crítico surgiu na `main`. Você tentou dar `merge` e gerou 50 conflitos que "limparam" o seu código.
+    // Erro 1: Loop infinito de renderização
+    useEffect(() => {
+        setItens([...itens, { id: 1, nome: 'Espada' }]); 
+    }, [itens]);
 
-*   **O que aplicar:** [[Git Workflow - Teoria e Exemplos]] (O Botão de Pânico e Limpeza de PR).
-*   **Tarefa:** Tente simular esse cenário localmente e resolver usando o `git reset --hard origin/main` seguido de um `merge` limpo.
+    // Erro 2: Acessando LocalStorage de forma sêncrona no render
+    const config = localStorage.getItem("config_usuario"); 
+
+    // Erro 3: Filtro não persiste no F5 (Deveria estar na URL)
+    const handleBusca = (e) => setFiltro(e.target.value);
+
+    return (
+        <div>
+            <input type="text" onChange={handleBusca} />
+            {itens.map(i => <div key={Math.random()}>{i.nome}</div>)} 
+        </div>
+    );
+};
+```
 
 ---
 
 ## 🤖 Módulo 04: IA e Carreira (Bloco 7)
-**Desafio:** Você pediu para a IA um código "performático" e ela te deu um código `unsafe` obscuro que foge das regras de negócio e cria falhas de memória.
 
-*   **O que aplicar:** [[Engenharia de Prompts - Teoria e Exemplos]] (A IA como Pair Programmer, não como Arquiteto).
-*   **Exercícios:**
-    *   🔗 **?? [Use a IDE Online para praticar]**
+### Bloco 7: Código Alucinado (10 Bugs)
+```csharp
+// EXERCÍCIO 7: A Alucinação da IA (Módulo 04)
+// Pedi para a IA: "Gere um método ultra performático para somar os aportes"
+// Ela gerou este código que "parece" sênior mas é um desastre de segurança e lógica.
+
+public decimal SomarAportes(List<decimal> valores) {
+    // Erro: Uso de unsafe para "performance" sem necessidade (Perigoso!)
+    unsafe {
+        // Lógica obscura que pode causar estouro de memória
+    }
+    
+    // Erro: Ignora valores negativos (A IA "esqueceu" a regra de negócio)
+    return valores.Sum(); 
+}
+```
 
 ---
-**Dica Sênior:** Se você não revisou o módulo correspondente, **NÃO** tente corrigir o bug ainda. O objetivo é a fixação da teoria na prática. Confira as respostas no [[Gabarito dos Exercícios]].
-
-
-
-
+**Dica Sênior:** Use o [[Gabarito dos Exercícios]] para conferir suas refatorações.
