@@ -12,8 +12,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 1.  **Teoria:** [[Csharp Foundations - Teoria e Exemplos]]
 2.  **Teoria:** [[Mestre do SQL - Teoria e Exemplos]]
 3.  **Laboratório (VS Code):** 
-    - 🔗 **[Praticar C# Foundations](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Foundations/Fundamentos_Csharp.cs)**
-    - 🔗 **[Praticar SQL Pro](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Database/Pratica_SQL.cs)**
+    - 🔗 **?? [Use a IDE Online para praticar]**
+    - 🔗 **?? [Use a IDE Online para praticar]**
 4.  **Validação:** Confira o [[Gabarito dos Exercícios]] (Seção 0 e 6).
 > **👨‍💻 Visão Sênior:** Se você não entender como a memória do C# funciona e como o SQL faz um Join, você nunca será um bom arquiteto. Domine a base!
 
@@ -27,7 +27,7 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 1.  **Teoria:** [[DDD - Teoria e Exemplos]]
 2.  **Exercícios Teóricos:** [[DDD - Exercícios]]
 3.  **Laboratório (VS Code):** 
-    - 🔗 **[Refatorar Entidade Aporte](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/FinanceiraEstude.Domain/AggregatesModel/AporteAggregate/Aporte.cs)**
+    - 🔗 **?? [Use a IDE Online para praticar]**
 4.  **Aplicação Real:** Siga a **Fase 1** do [[FinanceiraEstude - Roadmap]].
 > **👨‍💻 Visão Sênior:** Proteja o seu Domínio. Se a regra de negócio vazar para a API, você perdeu a guerra.
 
@@ -53,7 +53,7 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 1.  **Teoria:** [[Performance - Teoria e Exemplos]]
 2.  **Exercícios Teóricos:** [[Performance - Exercícios]]
 3.  **Laboratório (VS Code):** 
-    - 🔗 **[Otimizar Controllers](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/FinanceiraEstude.API/Controllers/AportesController.cs)**
+    - 🔗 **?? [Use a IDE Online para praticar]**
 4.  **Aplicação Real:** Siga a **Fase 2** do [[FinanceiraEstude - Roadmap]].
 > **👨‍💻 Visão Sênior:** Async até o topo! Nunca trave uma thread do pool.
 
@@ -78,7 +78,7 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 
 1.  **Desafio Final:** [[SIMULADOR_DE_CAOS]]
 2.  **Laboratório (VS Code):** 
-    - 🔗 **[Abrir Todos os Blocos de Bugs](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/)**
+    - 🔗 **?? [Use a IDE Online para praticar]**
 3.  **Correção:** Use o [[Gabarito dos Exercícios]] (Seção 7) para comparar suas refatorações.
 > **👨‍💻 Visão Sênior:** Não apenas "faça funcionar". Deixe o código melhor do que você o encontrou.
 
@@ -108,6 +108,7 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 > **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 *"Junior, a base é tudo. O topo é apenas a consequência."*
+
 
 
 

@@ -99,7 +99,8 @@ Junior, o compilador é seu professor mais rigoroso. Se ele deu erro, **leia o e
 
 ## 💡 Próximos Passos
 Vá para o laboratório e sinta a memória funcionando:
-🔗 **[Abrir Laboratório de Fundamentos no VS Code](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Foundations/Fundamentos_Csharp.cs)**
+🔗 **?? [Use a IDE Online para praticar]**
+
 
 
 

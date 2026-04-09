@@ -5,7 +5,7 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 ---
 
 ## 🏗️ Ponte com o VS Code
-🔗 **[Abrir Projeto FinanceiraEstude no VS Code](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/)**
+🔗 **?? [Use a IDE Online para praticar]**
 
 ---
 
@@ -14,8 +14,8 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 
 *   **O que aplicar:** [[DDD - Teoria e Exemplos]] (Encapsulamento Rico e Inversão de Dependência).
 *   **Exercícios:**
-    *   🔗 **[Abrir Bloco 1: Domínio (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco1_Dominio.cs)**
-    *   🔗 **[Abrir Bloco 2: Application (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco2_Application.cs)**
+    *   🔗 **?? [Use a IDE Online para praticar]**
+    *   🔗 **?? [Use a IDE Online para praticar]**
 
 ---
 
@@ -24,8 +24,8 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 
 *   **O que aplicar:** [[Performance - Teoria e Exemplos]] (Async/Await, CancellationToken e Segurança SQL).
 *   **Exercícios:**
-    *   🔗 **[Abrir Bloco 3: API (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco3_API.cs)**
-    *   🔗 **[Abrir Bloco 4: Infraestrutura (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco4_Infra.cs)**
+    *   🔗 **?? [Use a IDE Online para praticar]**
+    *   🔗 **?? [Use a IDE Online para praticar]**
 
 ---
 
@@ -34,7 +34,7 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 
 *   **O que aplicar:** [[Gerenciamento de Estado - Teoria e Exemplos]] (Hierarquia de Dados e URL Params).
 *   **Exercícios:**
-    *   🔗 **[Abrir Bloco 6: Frontend React (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco6_Frontend.jsx)**
+    *   🔗 **?? [Use a IDE Online para praticar]**
 
 ---
 
@@ -51,10 +51,11 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 
 *   **O que aplicar:** [[Engenharia de Prompts - Teoria e Exemplos]] (A IA como Pair Programmer, não como Arquiteto).
 *   **Exercícios:**
-    *   🔗 **[Abrir Bloco 7: Código Alucinado (10 Bugs)](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Caos/Bloco7_IA_Alucina%C3%A7%C3%A3o.cs)**
+    *   🔗 **?? [Use a IDE Online para praticar]**
 
 ---
 **Dica Sênior:** Se você não revisou o módulo correspondente, **NÃO** tente corrigir o bug ainda. O objetivo é a fixação da teoria na prática. Confira as respostas no [[Gabarito dos Exercícios]].
+
 
 
 
