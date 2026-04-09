@@ -33,3 +33,4 @@ As respostas explicadas estão no arquivo:
 [[Gabarito dos Exercícios]]
 
 
+

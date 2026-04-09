@@ -57,3 +57,4 @@ Este simulador é o campo de batalha dos seus estudos. Cada bloco de bugs abaixo
 **Dica Sênior:** Se você não revisou o módulo correspondente, **NÃO** tente corrigir o bug ainda. O objetivo é a fixação da teoria na prática. Confira as respostas no [[Gabarito dos Exercícios]].
 
 
+

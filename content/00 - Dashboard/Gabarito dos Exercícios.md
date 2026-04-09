@@ -163,3 +163,4 @@ Abaixo estão as soluções e os **Caminhos de Decisão** para os 50 erros do Fi
 **Dica Final:** Se o que você fez resolve o erro (ex: transformou o `set` em `private set`), você está no caminho certo! O importante é entender **por que** a propriedade pública é perigosa.
 
 
+

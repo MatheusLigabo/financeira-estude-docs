@@ -111,3 +111,4 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 
 
 
+

@@ -29,8 +29,10 @@ Bem-vindo ao seu núcleo de desenvolvimento. Esta estrutura foi desenhada para s
 
 ## 💣 O Simulador de Caos (Bugs Reais)
 - **Teste Final:** [[SIMULADOR_DE_CAOS]]
+---
 
 ## 🏆 Conquistas e Revisão
+- **Como Praticar (IDE Online):** [[Ambiente de Estudos - Online]]
 - **Gabarito Central:** [[Gabarito dos Exercícios]]
 - **Projeto Learn:** [[FinanceiraEstude - Roadmap]]
 
