@@ -97,8 +97,12 @@ Junior, o compilador é seu professor mais rigoroso. Se ele deu erro, **leia o e
 
 ---
 
-## 💡 Próximos Passos
-Vá para o laboratório e sinta a memória funcionando:
+## 💡 Próximos Passos e Prática
+
+### 💻 Como Praticar Online
+1. Copie o código do laboratório abaixo.
+2. Acesse o **[DotNetFiddle](https://dotnetfiddle.net/)**.
+3. Cole o código e clique em **Run** para ver a mágica!
 
 ### 🧪 Laboratório de Prática
 ```csharp
@@ -109,18 +113,14 @@ using System.Linq;
 namespace FinanceiraEstude.Exercises.Foundations;
 
 public class TreinoBasico {
-    public void Executar() {
+    public static void Main() {
         var aportes = new List<decimal> { 100.50m, 200.00m, 50.75m, 1000.00m, -10.00m };
 
         // DESAFIO 1: Use LINQ para filtrar apenas valores positivos e maiores que 100.
         // DESAFIO 2: Use LINQ para somar todos os valores.
         // DESAFIO 3: O que acontece se eu mudar 'decimal' para 'double' em cálculos financeiros?
+        
+        Console.WriteLine("Fundamentos carregados com sucesso!");
     }
 }
 ```
-
-
-
-
-
-

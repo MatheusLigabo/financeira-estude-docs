@@ -91,8 +91,12 @@ Junior, o banco de dados pode estar em um servidor e sua API em outro. Se você 
 
 ---
 
-## 💡 Próximos Passos
-Vá para o laboratório e domine suas queries:
+## 💡 Próximos Passos e Prática
+
+### 💻 Como Praticar Online
+1. Copie o código do laboratório abaixo.
+2. Acesse o **[DotNetFiddle](https://dotnetfiddle.net/)** (para C# com Dapper) ou o **[SQL Fiddle](http://sqlfiddle.com/)** (para SQL puro).
+3. Teste suas queries e valide o conhecimento!
 
 ### 🧪 Laboratório de Prática
 ```csharp
@@ -103,14 +107,13 @@ using Dapper;
 namespace FinanceiraEstude.Exercises.Database;
 
 public class TreinoSQL {
-    // DESAFIO: Escreva a Query SQL (string) para buscar o Nome do Cliente e o Valor do Aporte
-    // fazendo um JOIN entre as tabelas 'Clientes' e 'Aportes'.
-    // Evite o problema N+1!
-    public string QueryDesafio = "ESCREVA AQUI O SEU SELECT COM JOIN";
+    public static void Main() {
+        // DESAFIO: Escreva a Query SQL (string) para buscar o Nome do Cliente e o Valor do Aporte
+        // fazendo um JOIN entre as tabelas 'Clientes' e 'Aportes'.
+        // Evite o problema N+1!
+        
+        string queryDesafio = "ESCREVA AQUI O SEU SELECT COM JOIN";
+        Console.WriteLine("Laboratório de SQL pronto para testes!");
+    }
 }
 ```
-
-
-
-
-
