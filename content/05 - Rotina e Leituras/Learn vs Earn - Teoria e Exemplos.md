@@ -1,6 +1,6 @@
 # O Sistema: Learn vs Earn (Deep Dive)
 
-Junior, a carreira de um desenvolvedor não é uma corrida de 100 metros, é uma **Maratona de Aprendizado Infinito**. Se você não tiver um sistema para gerenciar seu tempo e energia, você vai queimar o seu cérebro (Burnout) e ficar estagnado.
+Junior, a carreira de um Dev não é uma corrida de 100 metros, é uma **Maratona de Aprendizado Infinito**. Se você não tiver um sistema para gerenciar seu tempo e energia, você vai queimar o seu cérebro (Burnout) e ficar estagnado.
 
 ---
 
@@ -43,7 +43,7 @@ Se o dia for muito pesado, estude apenas **5 minutos**. O objetivo não é o con
 Anote por 3 dias quando você se sente mais alerta (manhã, tarde ou noite). Organize seus estudos mais difíceis para esse horário.
 
 ### 📅 Exemplo 7: O "Learn" no "Earn"
-No trabalho, peça para fazer Code Review dos desenvolvedores mais sêniores. Pergunte por que eles tomaram certas decisões. Use o código da empresa como sua sala de aula gratuita.
+No trabalho, peça para fazer Code Review dos Deves mais sêniores. Pergunte por que eles tomaram certas decisões. Use o código da empresa como sua sala de aula gratuita.
 
 ### 📅 Exemplo 8: Desconexão Total
 Tenha um dia na semana (ex: Domingo) onde você não abre o VS Code e não lê nada de tecnologia. O cérebro precisa de ócio criativo para consolidar o que aprendeu.
@@ -62,3 +62,5 @@ Junior, estar "sempre ocupado" não é o mesmo que ser produtivo. Se você passa
 ## 💡 Próximos Passos
 Organize sua rotina de elite:
 [[Learn vs Earn - Exercícios]]
+
+

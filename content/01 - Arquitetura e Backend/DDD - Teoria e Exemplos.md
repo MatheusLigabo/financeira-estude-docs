@@ -98,3 +98,5 @@ Junior, muitos acham que DDD é criar pastas como `Domain`, `Services`, `Reposit
 ## 💡 Próximos Passos
 Treine seu cérebro para pensar em Regras de Negócio:
 [[DDD - Exercícios]]
+
+

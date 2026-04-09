@@ -70,7 +70,7 @@ Este arquivo contém as respostas e explicações para as questões de fixação
 7. **Testes Unitários:** Você pode colar sua classe e pedir: "Gere testes unitários usando xUnit cobrindo os caminhos felizes e de erro".
 8. **Network Tab:** Permite ver o JSON real que o sistema antigo usa, fornecendo a "verdade" técnica para a IA mapear.
 9. **Zero vs Few-Shot:** `Zero-shot` é pedir sem exemplos. `Few-shot` é dar 2 ou 3 exemplos antes do pedido final.
-10. **Simular Entrevista:** "Atue como um Tech Lead e me faça 5 perguntas difíceis sobre .NET Internals. Avalie minhas respostas no final."
+10. **Simular Entrevista:** "Atue como um Mentor e me faça 5 perguntas difíceis sobre .NET Internals. Avalie minhas respostas no final."
 
 ---
 
@@ -161,3 +161,5 @@ Abaixo estão as soluções e os **Caminhos de Decisão** para os 50 erros do Fi
 
 ---
 **Dica Final:** Se o que você fez resolve o erro (ex: transformou o `set` em `private set`), você está no caminho certo! O importante é entender **por que** a propriedade pública é perigosa.
+
+

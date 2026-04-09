@@ -83,3 +83,5 @@ Junior, o `useEffect` é para **Efeitos Colaterais** (sincronizar com sistemas f
 ## 💡 Próximos Passos
 Treine sua arquitetura de Frontend:
 [[Gerenciamento de Estado - Exercícios]]
+
+

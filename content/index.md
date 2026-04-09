@@ -33,3 +33,5 @@ Bem-vindo ao seu núcleo de desenvolvimento. Esta estrutura foi desenhada para s
 ## 🏆 Conquistas e Revisão
 - **Gabarito Central:** [[Gabarito dos Exercícios]]
 - **Projeto Learn:** [[FinanceiraEstude - Roadmap]]
+
+

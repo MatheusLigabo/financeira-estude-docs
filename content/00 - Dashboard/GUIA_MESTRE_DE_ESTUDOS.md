@@ -2,6 +2,8 @@
 
 Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios práticos, o simulador de bugs e a implementação real no FinanceiraEstude. 
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🏁 FASE 0: O Cimento (Fundamentos de Aço)
@@ -15,6 +17,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 4.  **Validação:** Confira o [[Gabarito dos Exercícios]] (Seção 0 e 6).
 > **👨‍💻 Visão Sênior:** Se você não entender como a memória do C# funciona e como o SQL faz um Join, você nunca será um bom arquiteto. Domine a base!
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🫀 FASE 1: O Coração (Arquitetura e DDD)
@@ -27,6 +31,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 4.  **Aplicação Real:** Siga a **Fase 1** do [[FinanceiraEstude - Roadmap]].
 > **👨‍💻 Visão Sênior:** Proteja o seu Domínio. Se a regra de negócio vazar para a API, você perdeu a guerra.
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🐙 FASE 2: O Fluxo Profissional (Git & Workflow)
@@ -37,6 +43,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 3.  **Desafio de Realidade:** Siga a **Fase 4** do [[FinanceiraEstude - Roadmap]] (Conventional Commits).
 > **👨‍💻 Visão Sênior:** Commits são documentação histórica. Escreva mensagens que expliquem o "PORQUÊ" da mudança.
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🚀 FASE 3: O Tanque de Guerra (Performance & Resiliência)
@@ -49,6 +57,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 4.  **Aplicação Real:** Siga a **Fase 2** do [[FinanceiraEstude - Roadmap]].
 > **👨‍💻 Visão Sênior:** Async até o topo! Nunca trave uma thread do pool.
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🤖 FASE 4: O Copiloto (IA & Produtividade)
@@ -59,6 +69,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 3.  **Desafio de Realidade:** Siga a **Fase 5** do [[FinanceiraEstude - Roadmap]].
 > **👨‍💻 Visão Sênior:** A IA é seu estagiário rápido. Você é o revisor sênior. Valide cada linha gerada.
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 💣 FASE 5: A Prova de Fogo (O Simulador de Caos)
@@ -70,6 +82,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 3.  **Correção:** Use o [[Gabarito dos Exercícios]] (Seção 7) para comparar suas refatorações.
 > **👨‍💻 Visão Sênior:** Não apenas "faça funcionar". Deixe o código melhor do que você o encontrou.
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🎨 FASE 6: A Vitrine (Frontend e Estado)
@@ -79,6 +93,8 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 2.  **Exercícios Práticos:** [[Gerenciamento de Estado - Exercícios]]
 3.  **Aplicação Real:** Siga a **Fase 3** do [[FinanceiraEstude - Roadmap]].
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 
 ## 🧘 FASE INFINITA: Mentalidade de Elite
@@ -88,5 +104,10 @@ Este é o seu mapa de guerra. Ele conecta a teoria exaustiva, os exercícios pr�
 2.  **Disciplina:** [[Hábitos e Leituras]]
 3.  **Exercícios:** [[Learn vs Earn - Exercícios]]
 
+
+> **?? DICA DE PR�TICA:** Se voc� n�o quiser instalar nada agora, pode copiar os c�digos dos exerc�cios e rodar no **[OneCompiler (C# Online)](https://onecompiler.com/csharp)**.
 ---
 *"Junior, a base é tudo. O topo é apenas a consequência."*
+
+
+

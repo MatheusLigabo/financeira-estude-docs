@@ -30,3 +30,5 @@ Escolha UMA funcionalidade pequena para o seu projeto `FinanceiraEstude`.
 ## 💡 Precisa de Ajuda?
 As respostas explicadas estão no arquivo:
 [[Gabarito dos Exercícios]]
+
+

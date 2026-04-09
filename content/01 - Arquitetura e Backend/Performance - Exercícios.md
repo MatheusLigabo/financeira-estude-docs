@@ -31,3 +31,5 @@ No seu projeto `.NET`, adicione o parâmetro `CancellationToken ct` em um métod
 ## 💡 Precisa de Ajuda?
 As respostas explicadas estão no arquivo:
 [[Gabarito dos Exercícios]]
+
+

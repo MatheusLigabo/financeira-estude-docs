@@ -84,10 +84,12 @@ Quem mudou essa linha e por quê?
 ---
 
 ## 👨‍💻 Visão Sênior: Commits são Documentação
-Junior, um bom desenvolvedor gasta tempo escrevendo mensagens de commit claras. Daqui a 6 meses, quando você encontrar um bug, o commit será a sua única pista de **por que** você tomou aquela decisão bizarra às 3h da manhã. O código diz **O QUE**, o commit diz **POR QUÊ**.
+Junior, um bom Dev gasta tempo escrevendo mensagens de commit claras. Daqui a 6 meses, quando você encontrar um bug, o commit será a sua única pista de **por que** você tomou aquela decisão bizarra às 3h da manhã. O código diz **O QUE**, o commit diz **POR QUÊ**.
 
 ---
 
 ## 💡 Próximos Passos
 Domine o seu histórico de código:
 [[Git Workflow - Exercícios]]
+
+

@@ -59,3 +59,5 @@ Junior, se você pedir para a IA "fazer o sistema para mim", o resultado será u
 ## 💡 Próximos Passos
 Domine o seu novo braço direito:
 [[Engenharia de Prompts - Exercícios]]
+
+

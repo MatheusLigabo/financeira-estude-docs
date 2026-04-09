@@ -93,3 +93,5 @@ Junior, o banco de dados pode estar em um servidor e sua API em outro. Se você 
 
 ## 💡 Próximos Passos
 🔗 **[Abrir Laboratório de SQL no VS Code](vscode://file/C:/Users/mtsli/OneDrive/%C3%81rea%20de%20Trabalho/Futuro/FinanceiraEstude/FinanceiraEstude/Exercises/Database/Pratica_SQL.cs)**
+
+

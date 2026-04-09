@@ -32,3 +32,5 @@ Crie um repositório de teste local (`git init`).
 ## 💡 Precisa de Ajuda?
 As respostas explicadas estão no arquivo:
 [[Gabarito dos Exercícios]]
+
+

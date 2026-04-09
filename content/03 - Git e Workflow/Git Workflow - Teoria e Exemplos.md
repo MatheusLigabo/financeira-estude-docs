@@ -5,7 +5,7 @@ O Git não é apenas uma ferramenta de backup de código; é uma ferramenta de *
 ## 🧠 Fluxos de Trabalho (Workflows)
 
 ### 1. Trunk-Based Development
-É o fluxo preferido por empresas de alta performance (como Google e Netflix). Os desenvolvedores fazem commits pequenos e frequentes diretamente na `main` (ou branches de vida curtíssima).
+É o fluxo preferido por empresas de alta performance (como Google e Netflix). Os Deves fazem commits pequenos e frequentes diretamente na `main` (ou branches de vida curtíssima).
 - **Vantagem:** Evita "Hell Merge" (conflitos gigantes) no final da feature.
 
 ### 2. Git Flow
@@ -43,7 +43,7 @@ Usa branches separadas para `develop`, `feature`, `release` e `hotfix`.
 ## 👨‍💻 Visão Sênior: Commits que Contam uma História
 
 **A "Preguiça do Commit":**
-Vejo muitos desenvolvedores enviando PRs com 50 arquivos alterados e uma mensagem "ajustes gerais". Isso é um pesadelo para quem revisa.
+Vejo muitos Deves enviando PRs com 50 arquivos alterados e uma mensagem "ajustes gerais". Isso é um pesadelo para quem revisa.
 
 **O Conselho do Mentor:**
 1. **Commits Atômicos:** Um commit deve fazer apenas UMA coisa. Se você corrigiu um bug e formatou o arquivo, faça dois commits separados.
@@ -55,3 +55,5 @@ Vejo muitos desenvolvedores enviando PRs com 50 arquivos alterados e uma mensage
 ## 💡 Próximos Passos
 Teste seu domínio de terminal no arquivo:
 [[Git Workflow - Exercícios]]
+
+

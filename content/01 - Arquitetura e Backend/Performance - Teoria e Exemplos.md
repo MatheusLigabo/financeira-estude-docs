@@ -38,7 +38,7 @@ Se o banco de dados falhou 10 vezes seguidas, não adianta tentar a 11ª. O "Dis
 ## 🛑 3. Exception Handling (Gerenciamento Global)
 Junior, nunca coloque `try/catch` em todos os métodos. Isso polui o código.
 - **O Caminho Profissional:** Use um **Middleware Global de Exceção**. 
-- **O Fluxo:** Se um erro acontecer em qualquer lugar (Domain, Application ou Infra), o Middleware captura, gera um Log detalhado para o desenvolvedor e retorna um JSON amigável para o usuário.
+- **O Fluxo:** Se um erro acontecer em qualquer lugar (Domain, Application ou Infra), o Middleware captura, gera um Log detalhado para o Dev e retorna um JSON amigável para o usuário.
 
 ---
 
@@ -117,3 +117,5 @@ Junior, o pior erro é o "Silêncio do Erro". Se uma Exception acontece e você 
 ## 💡 Próximos Passos
 Teste a resiliência do seu código:
 [[Performance - Exercícios]]
+
+

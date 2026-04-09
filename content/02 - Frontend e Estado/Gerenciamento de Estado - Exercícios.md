@@ -23,7 +23,7 @@ No seu projeto React, crie uma lista simples de itens (ex: `['Espada', 'Escudo',
 6. **(UX)** Em um formulário de "Criação de Personagem" com 5 passos (Wizard), qual o melhor armazenamento para que o progresso não se perca se ele mudar de aba, mas limpe quando ele fechar o navegador?
 7. **(SPA)** O que significa o termo "Single Source of Truth" (Fonte Única de Verdade) em gerenciamento de estado?
 8. **(React)** Qual hook é usado para disparar um efeito colateral quando uma variável de estado muda?
-9. **(URL)** Qual a diferença entre `Route Params` (ex: `/perfil/mtslima`) e `Query Params` (ex: `/perfil?user=mtslima`)? Quando usar cada um?
+9. **(URL)** Qual a diferença entre `Route Params` (ex: `/perfil/dev_user`) e `Query Params` (ex: `/perfil?user=dev_user`)? Quando usar cada um?
 10. **(Estado)** O que é o "Estado Global" (como Redux ou Context API) e em que cenário ele deve ser evitado? (Dica: Prop drilling simples).
 
 ---
@@ -31,3 +31,5 @@ No seu projeto React, crie uma lista simples de itens (ex: `['Espada', 'Escudo',
 ## 💡 Precisa de Ajuda?
 As respostas explicadas estão no arquivo:
 [[Gabarito dos Exercícios]]
+
+
